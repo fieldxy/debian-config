@@ -42,6 +42,10 @@ packer.startup({
 
     -- theme ---
     use("folke/tokyonight.nvim")
+
+    -- markdown --
+    use {"ellisonleao/glow.nvim", branch = 'main'}
+
   end,
 
   config = {
