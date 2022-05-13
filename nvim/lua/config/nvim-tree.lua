@@ -1,4 +1,3 @@
--- each of these are documented in `:help nvim-tree.OPTION_NAME`
 -- https://github.com/kyazdani42/nvim-tree.lua
 -- local nvim_tree = require'nvim-tree'
 local status, nvim_tree = pcall(require, "nvim-tree")
@@ -65,4 +64,3 @@ nvim_tree.setup({
     -- cmd = "wsl-open",
   },
 })
--- nested options are documented by accessing them with `.` (eg: `:help nvim-tree.view.mappings.list`).
