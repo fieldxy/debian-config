@@ -6,7 +6,7 @@ require 'autocmds'
 
 
 require "config.nvim-tree"
---require "config.bufferline"
+require "config.bufferline"
 require "config.lualine"
 
 require("config.telescope")
@@ -23,8 +23,8 @@ require("config.indent-blankline")
 -- Git
 -- require("plugin-config.gitsigns")
 -- 内置LSP
--- require("lsp.setup")
--- require("lsp.cmp")
+require("lsp.setup")
+require("lsp.cmp")
 -- require("lsp.ui")
 -- require("lsp.formatter")
 -- require("lsp.null-ls")

@@ -33,7 +33,7 @@ end
 packer.startup({
   function(use)
     -- Packer 可以升级自己
-    use("wbthomason/packer.nvim") 
+    use("wbthomason/packer.nvim")
     -- nvim-tree
     use({
       "kyazdani42/nvim-tree.lua",
